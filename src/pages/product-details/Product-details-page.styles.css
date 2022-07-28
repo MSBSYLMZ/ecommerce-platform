@@ -1,0 +1,153 @@
+.product-details{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.product-images{
+    width: calc(50% - 40px);
+    min-width: 300px;
+}
+.product-options{
+    width: calc(50% - 40px);
+    padding: 0 40px;
+}
+
+.product-name{
+    min-width: 280px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-price{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color2);
+    margin-bottom: 16px;
+}
+
+.product-color-option-text,.product-size-option-text {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.product-color-option-text span,.product-size-option-text span{
+    font-weight: 700;
+}
+
+.add-to-cart-button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sub-title{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.read-more{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color2);
+}
+
+.delivery-section{
+    margin-top: 60px;
+}
+.delivery-info{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.delivery-info span{
+    font-weight: 700;
+}
+
+.shop-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.see-all-items{
+    width: 90%;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.other-images img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+.other-images img:first-child{
+    margin-left: 0;
+}
+
+.color-option{
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.size-option{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid var(--color4);
+}
+.size-option:first-child{
+    margin-left: 0;
+}
+
+.color-option.selected, .size-option.selected {
+    border: 2px solid var(--color2);
+}
+
+
+.color-option:first-child{
+    margin-left: 0;
+}
+
+.color-option img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.about-seller{
+    margin: 40px 0;
+}
+.shop-info{
+    width: 20%;
+    min-width: 280px;
+    padding-right: 10px;
+}
+
+.shop-products{
+    width: 70%;
+}
+
+@media screen and (max-width: 1230px) {
+    .shop-products, .shop-info{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .product-images,.product-options{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}

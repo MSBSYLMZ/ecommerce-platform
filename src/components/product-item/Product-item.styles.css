@@ -1,0 +1,21 @@
+.product-item{
+    position: relative;
+    cursor: pointer;
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-kd{
+    background-color: var(--color5);
+    position: absolute;
+    top: 170px;
+    left: 7px;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 12px;
+}

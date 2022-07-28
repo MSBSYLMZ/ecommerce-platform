@@ -1,0 +1,56 @@
+.overlay{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(198, 196, 250, .9);
+    z-index: 2;
+}
+.popup{
+    position: relative;
+    background-color: var(--color5);
+    width: 20%;
+    min-width: 300px;
+    padding: 25px;
+    margin: auto;
+    top: 10vh;
+    border-radius: 14px;
+}
+
+.auth-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.auth-description{
+    font-size: 14px;
+    font-weight: 500;
+}
+.auth-form-element{
+    margin: 14px 0;
+}
+
+.popup label{
+    font-size: 11px;
+}
+.popup .custom-input{
+    width: calc(100% - 14px);
+    border-radius: 8px;
+    padding: 8px;
+    display: block;
+}
+
+.popup .custom-button{
+    width: 80%;
+    margin: 15px 0 24px 10%;
+}
+
+.auth-navigator{
+    text-align: center;
+}
+
+.auth-navigator span{
+    cursor: pointer;
+    color: var(--color2);
+}

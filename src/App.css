@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+:root{
+  --color1: #030303;
+  --color2: #966FDF;
+  --color3: #FA0064;
+  --color4: #C6C4FA;
+  --color5: #FCFDFD;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+.relative{
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-center{
+  text-align: center !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wrap{
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.between{
+  justify-content: space-between;
 }
+
+.around{
+  justify-content: space-around;
+}
+
+.evenly{
+  justify-content: space-evenly;
+}
+
+.start{
+  justify-content: start;
+}
+
+.intro-title{
+  margin: 0 20px 0 0;
+  font-size: 18px;
+}
+
+.black-icon{
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.recommendations{
+  margin:60px 0;
+
+}
+.recommendations:first-child{
+  margin: 50px 0;
+}
+

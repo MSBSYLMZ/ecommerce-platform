@@ -1,0 +1,26 @@
+.list{
+    position: relative;
+}
+
+.list-button {
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    background-color: var(--color5);
+    color: var(--color1);
+    border: 1px solid var(--color1);
+    -webkit-box-shadow: 119px 31px 300px 110px var(--color5);
+    -moz-box-shadow: 119px 31px 300px 110px var(--color5);
+    box-shadow: 119px 31px 300px 110px var(--color5);
+}
+.list-button:active{
+    position: absolute;
+    top: 40%;
+    right: 5px;
+}
+
+@media screen and (max-width:488px) {
+    .list{
+        justify-content: center;
+    }
+}

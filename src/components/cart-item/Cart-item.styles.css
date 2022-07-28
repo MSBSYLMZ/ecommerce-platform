@@ -1,0 +1,21 @@
+.cart-item{
+    position: relative;
+    border-bottom: 1px solid var(--color4);
+    margin: 8px 0;
+}
+
+.cart-item-thumbnail{
+    width: 40px;
+    height: 40px;
+}
+.quantity{
+    position: absolute;
+    right: 0px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-transform: capitalize;
+
+}

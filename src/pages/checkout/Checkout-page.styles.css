@@ -1,0 +1,32 @@
+.checkout-page-layout{
+    width: 70%;
+    margin: auto;
+}
+
+.page-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.checkout-titles{
+    border-bottom: 2px solid var(--color4);
+}
+.checkout-titles div, .total div{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.checkout-items,.page-title,.checkout-titles{
+    margin: 40px auto;
+}
+
+.checkout-items{
+    border-bottom: 2px solid var(--color4);
+}
+
+.checkout-button{
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    margin-bottom: 50px;
+
+}

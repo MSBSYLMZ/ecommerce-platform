@@ -1,0 +1,31 @@
+.cart-dropdown{
+    position: absolute;
+    right: 0;
+    width: 250px;
+    min-height: 200px;
+    max-height: 350px;
+    z-index: 1;
+    overflow-y: auto;
+    background-color: var(--color5);
+    border: 1px solid var(--color4);
+    padding: 25px 14px 50px 14px;
+    border-radius: 8px;
+}
+.close-icon{
+    position: absolute;
+    right: 14px;
+    top: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.go-to-checkout{
+    width: calc(100% - 28px) ;
+    position: absolute;
+    bottom: 0;
+}
+
+.go-to-checkout:active {
+    position: absolute;
+    top: unset;
+	bottom: -2px !important;
+}
